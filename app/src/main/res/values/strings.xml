@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AuthScreen</string>
+
+    <string name="title_auth">Authorization</string>
+    <string name="title_registration">Registration</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+
+    <string name="btn_create">Sign up</string>
+    <string name="btn_sign_in">Sign in</string>
+    <string name="btn_register">Sign up</string>
+
+    <string name="error_registration_email_incorrect">Incorrect email address.</string>
+    <string name="error_registration_email_empty">An email address is required.</string>
+    <string name="error_registration_password_lowercase_letter">The password must contain at least one lowercase letter.</string>
+    <string name="error_registration_password_uppercase_letter">The password must contain at least one uppercase letter.</string>
+    <string name="error_registration_password_number">The password must contain at least one number.</string>
+    <string name="error_registration_password_length">The minimum password length is 6 characters.</string>
+    <string name="error_registration_password_empty">A password is required.</string>
+    <string name="error_registration_user_already_exists">A user with this login already exists.</string>
+
+    <string name="error_sign_in_user_not_found">User is not found. To add a new user, click the \"Sign up\" button.</string>
+    <string name="error_sign_in_wrong_email">Invalid email.</string>
+    <string name="error_sign_in_wrong_password">Invalid password.</string>
+
+    <string name="unknown_error">Unknown error</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="server_error">Server error</string>
+
+    <string name="suggestion_password">The password must contain one lowercase letter, one uppercase letter and one number. The minimum is 6 characters.</string>
+
+    <string name="temp_now">Temperature in St. Petersburg is %d℃</string>
+    <string name="user_created">User created</string>
+</resources>

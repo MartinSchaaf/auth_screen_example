@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AuthScreen</string>
+
+    <string name="title_auth">Авторизация</string>
+    <string name="title_registration">Регистрация</string>
+
+    <string name="hint_email">Электронная почта</string>
+    <string name="hint_password">Пароль</string>
+
+    <string name="btn_create">Создать</string>
+    <string name="btn_sign_in">Войти</string>
+    <string name="btn_register">Зарегистрировать</string>
+
+    <string name="error_registration_email_incorrect">Некорректный адрес эл. почты.</string>
+    <string name="error_registration_email_empty">Необходимо указать адрес электронной почты.</string>
+    <string name="error_registration_password_lowercase_letter">Пароль должен содержать хотя бы одну строчную букву.</string>
+    <string name="error_registration_password_uppercase_letter">Пароль должен содержать хотя бы одну заглавную букву.</string>
+    <string name="error_registration_password_number">Пароль должен содержать хотя бы одну цифру.</string>
+    <string name="error_registration_password_length">Минимальная длина пароля - 6 символов.</string>
+    <string name="error_registration_password_empty">Необходимо указать пароль.</string>
+    <string name="error_registration_user_already_exists">Пользователь с таким логином уже существует.</string>
+
+    <string name="error_sign_in_user_not_found">Пользователь не найден. Для добавления нового пользователя нажмите кнопку \"Создать\".</string>
+    <string name="error_sign_in_wrong_email">Неверный email.</string>
+    <string name="error_sign_in_wrong_password">Неверный пароль.</string>
+
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="no_internet">Нет подключения к интернету</string>
+    <string name="server_error">Ошибка сервера</string>
+
+    <string name="suggestion_password">Пароль должен содержать одну строчную букву, одну заглавную букву и одну цифру. Минимум - 6 символов.</string>
+
+    <string name="temp_now">Температура в Санкт-Петербурге: %d℃</string>
+    <string name="user_created">Пользователь создан</string>
+</resources>

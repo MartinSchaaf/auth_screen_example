@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.AuthScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="colorOnSecondary">@color/light_gray</item>
+        <item name="android:statusBarColor">@color/light_gray</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <!--Toolbar-->
+    <style name="Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="colorOnPrimary">@color/purple</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="actionMenuTextColor">@color/purple</item>
+        <item name="titleTextColor">@color/dark_gray</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!--Input layout-->
+    <style name="OutlinedInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/blue</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="hintTextColor">@color/blue</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorControlActivated">@color/blue</item>
+        <item name="endIconDrawable">@drawable/ic_question</item>
+    </style>
+
+    <!--Button-->
+    <style name="MaterialButton" parent="Widget.MaterialComponents.Button">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="colorPrimary">@color/purple</item>
+    </style>
+
+    <!--Progress Indicator-->
+    <style name="ProgressIndicator" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="indicatorColor">@color/purple</item>
+        <item name="trackCornerRadius">6dp</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+</resources>
